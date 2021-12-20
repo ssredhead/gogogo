@@ -1,3 +1,5 @@
+#package main, import "fmt" and func main() are the three crucial parts of this project
+
 package main
 
 import "fmt"
