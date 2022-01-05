@@ -16,4 +16,8 @@ func main() {
   grade = 6.5
 
   fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, "in", year, "for grade", grade, "with", pageNumber, "pages")
+
+  title = "Epic Vol. 1"
+  fmt.Println(title, "written by", writer, "drawn by", artist, "published by", publisher, "in", year, "of grade", grade, "with", pageNumber, "pages")
+
 }
