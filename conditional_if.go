@@ -3,12 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	heistReady := true
-
-  heistReady = false
-
+	heistReady := false
+	
   if heistReady {
-    fmt.Print("Let's Go!")
+		fmt.Println("Let's go!")
+	} else {
+    fmt.Println("Act normal.")
   }
-
 }
