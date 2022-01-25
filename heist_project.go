@@ -8,6 +8,7 @@ import (
 
 func main() {
 rand.Seed(time.Now().UnixNano())
+eludedGuards := rand.Intn(100)
 
 isHeistOn := true
 }
