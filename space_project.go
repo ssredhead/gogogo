@@ -8,7 +8,9 @@ func fuelGauge(fuel int) {
 }
 
 // Create the function calculateFuel() here
-
+func calculateFuel(planet string) int {
+  var fuel int
+}
 
 // Create the function greetPlanet() here
 
