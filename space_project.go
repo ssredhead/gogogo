@@ -28,7 +28,9 @@ func calculateFuel(planet string) int {
 }
 
 // Create the function greetPlanet() here
-
+func greetPlanet(planet string) {
+  fmt.Println("You are on, " planet)
+}
 
 // Create the function cantFly() here
 
