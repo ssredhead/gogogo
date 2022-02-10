@@ -38,6 +38,13 @@ func cantFly() {
 }
 
 // Create the function flyToPlanet() here
+func flyToPlanet(planet string, fuel int) int {
+  int fuelRemaining, fuelCost
+
+  fuelRemaining = fuel
+
+  fuelCost = calculateFuel(planet)
+}
 
 
 func main() {
