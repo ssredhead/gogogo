@@ -29,7 +29,7 @@ func calculateFuel(planet string) int {
 
 // Create the function greetPlanet() here
 func greetPlanet(planet string) {
-  fmt.Println("You are on, " planet)
+  fmt.Println("You are on ", planet)
 }
 
 // Create the function cantFly() here
@@ -39,19 +39,22 @@ func cantFly() {
 
 // Create the function flyToPlanet() here
 func flyToPlanet(planet string, fuel int) int {
-  int fuelRemaining, fuelCost
-
+  var fuelRemaining, fuelCost int
   fuelRemaining = fuel
 
   fuelCost = calculateFuel(planet)
+
+  if fuelRemaining >= fuelCost {
+    greetPlanet(planet)
+    fuelRemaining -= fuelCost
+  } else {
+    cantFly()
+  }
+
+  return fuelRemaining
 }
 
 
 func main() {
-  // Test your functions!
-  
-  // Create `planetChoice` and `fuel`
-  
-  // And then liftoff!
-  
+  fmt.Println(flyToPlanet("Mercury", 600000))
 }
