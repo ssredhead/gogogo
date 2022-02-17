@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // Make brainwash have a pointer parameter
+// using them all at once
 func brainwash(saying *string) {
 
 	// Dereference saying: 
